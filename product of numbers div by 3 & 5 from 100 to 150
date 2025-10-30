@@ -1,0 +1,15 @@
+package com.tka.demo1;
+
+public class product_div35 {
+	public static void main(String[] args) {
+    	long product = 1;
+		for (int i = 100; i<=150; i++)
+    {
+			if (i % 3== 0 && i % 5 == 0) {
+			product= product  * i ;
+      }
+			
+		}
+		System.out.println(product);
+	}
+}
